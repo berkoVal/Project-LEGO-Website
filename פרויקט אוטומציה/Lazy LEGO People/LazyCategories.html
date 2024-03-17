@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../CSS Files/StyleNavBar.CSS" rel="stylesheet" type="text/CSS"/>
+<title>Categories</title>
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.category {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.category:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.category .header {
+  background-color: rgb(0, 109, 183);
+  color: white;
+  font-size: 25px;
+}
+
+.button:link, .button:visited {
+  background-color: white;
+  color: black;
+  border: 2px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.category li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(16, 16, 16);
+  padding: 10px 20px;
+}
+
+.button1:hover {
+  background-color: rgb(0,108,183,255);
+  color: white;
+}
+
+.button2:hover {
+  background-color: #f57d20;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f57d20;
+  padding: 10px 20px;
+}
+
+.button3:hover {
+  background-color: #dd1a22;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #dd1a22;
+  padding: 10px 20px;
+}
+
+.ML {
+  background-color: white;
+  color: black;
+  border: 2px solid #00af4d;
+  padding: 5px 15px;
+  border-style: solid;
+  border-color:#00af4d
+
+}
+
+.ReadMore {
+  text-align: right;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  float: center;
+  text-decoration: right;
+  direction: rtl;
+}
+
+#more {
+  display: none;
+}
+
+</style>
+</head>
+<body>
+<div class="header" name="LOGO">
+  <img src="../Image/lazy logo0.1.jpg" width="768" height="368">
+</div>
+
+<div class="topnav">
+  <a href="LazyHOMEp.html">בית</a>
+  <a href="LazyCategories.html">קטגוריות</a>
+  <a href="LazyContact.html">יצירת קשר</a>
+</div>
+ 
+<h2 style="text-align:center">בחירת קטגוריה</h2>
+<p style="text-align:center; direction:rtl">המטרה היא להציע תחושת יחידות ואישיות בכל קטגוריה, ולהציע את האפשרות להביא את דגמי לגו  לתצוגה כפריט עיצובי עבורכם.</p>
+
+<div class="columns">
+  <ul class="category">
+    <li class="header" style="background-color:#dd1a22">לפי גיל</li>
+    <li label for="+1.5">+1.5</label>
+    <input type="checkbox" id="+1.5" onclick="myFunction(100,text9)"></li>
+    <p id="text9" style="display:none; text-align:center">100₪</p>
+    <li label for="+4">+4 - +6</label>
+    <input type="checkbox" id="+4" onclick="myFunction(250,text10)"></li>
+    <p id="text10" style="display:none; text-align:center">250₪</p>
+    <li label for="+13">+9 - +13</label>
+    <input type="checkbox" id="+13" onclick="myFunction(500,text11)"></li>
+    <p id="text11" style="display:none; text-align:center">500₪</p>
+    <li label for="+18">+18</label>
+    <input type="checkbox" id="+18" onclick="myFunction(750,text12)"></li>
+    <p id="text12" style="display:none; text-align:center">750₪</p>
+    <li><button class="button3" style="border-style: solid;border-color:#dd1a22" onclick="window.location='LazyContact.html'">לעוד פרטים</button></li>
+  </ul>
+</div><br/>
+
+<div class="columns">
+  <ul class="category">
+    <li class="header" style="background-color:#f57d20">לפי תחומי עיניין</li>
+    <li label for="flowersPlants">פרחים וצמחים</label>
+    <input type="checkbox" id="flowersPlants" onclick="myFunction(370,text5)"></li>
+    <p id="text5" style="display:none; text-align:center">370₪</p>
+    <li label for="Cars">Cars - מכוניות</label>
+    <input type="checkbox" id="Cars" onclick="myFunction(450,text6)"></li>
+    <p id="text6" style="display:none; text-align:center">450₪</p>
+    <li label for="MoviesSeries">סרטים וסדרות</label> 
+    <input type="checkbox" id="MoviesSeries" onclick="myFunction(570,text7)"></li>
+    <p id="text7" style="display:none; text-align:center">570₪</p>
+    <li label for="ART">ART - אומנות ויצירה</label>
+    <input type="checkbox" id="ART" onclick="myFunction(600,text8)"></li>
+    <p id="text8" style="display:none; text-align:center">600₪</p>
+    <li><button class="button2" a href="ContactPage.html" style="border-style: solid;border-color: #f57d20" onclick="window.location.href='LazyContact.html'">לעוד פרטים</button></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="category">
+    <li class="header">לפי נושאים</li>
+    <li label for="Icons">Icons - אייקונים</label>
+    <input type="checkbox" id="Icons" onclick="myFunction(500,text1)"></li>
+    <p id="text1" style="display:none; text-align:center">500₪</p>
+    <li label for="HarryPotter">Harry Potter - הארי פוטר</label>
+    <input type="checkbox" id="HarryPotter" onclick="myFunction(450,text2)"></li>
+    <p id="text2" style="display:none; text-align:center">450₪</p>
+    <li label for="StarWars">Star Wars - מלחמת הכוכבים</label> 
+    <input type="checkbox" id="StarWars" onclick="myFunction(350,text3)"></li>
+    <p id="text3" style="display:none; text-align:center">350₪</p>
+    <li label for="Classic">Classic - קלאסיק</label>
+    <input type="checkbox" id="Classic" onclick="myFunction(550,text4)"></li>
+    <p id="text4" style="display:none; text-align:center">550₪</p>
+    <li><button class="button1" style="border-style: solid;border-color: #006cb7;" onclick="window.location.href='LazyContact.html'">לעוד פרטים</button></li>
+  </ul>
+</div>
+
+<div class="ReadMore">
+<h2 style="direction: rtl">מחפשים את ערכת הלגו המושלמת אך לא יודעים מאיפה להתחיל?</h2>
+<p>בעזרת מדריך המתנות של לגו תוכלו למצוא את הערכה המושלמת לכל אירוע בכמה צעדים פשוטים <span id="dots">...</span><span id="more">התאמה לגיל – מפעוטות, דרך בני נוער ועד מבוגרים, ישנו מגוון רחב של ערכות המתאימות לכל קבוצת גיל, כך שתוכלו למצוא את הסט המושלם לאוהבי לגו בכל הגילאים.<br/>
+    תחומי עניין – חקר החלל, עולמות הפנטזיה או חיי העיר, יש לנו סט לכל נושא ותחום עניין, כך שתוכלו למצוא מתנה לכל אחד ואחת.<br/>
+    תקציב – המגוון הרחב שלנו נותן מענה גם לתקציבים בסדרי גודל שונים, מה שמאפשר לכם לרכוש מבלי לשבור את הכיס.<br/>
+    בין אם אתם מחפשים מתנה לחגים, בין אם ליום הולדת ובין אם לכל אירוע מיוחד, הנכם מוזמנים להישאר מעודכנים במהדורות החדשות של לגו, להתעדכן בסטים הנמכרים ביותר, או לרכוש גיפט כארד ולאפשר למקבלי המתנה לבחור את הערכה המועדפת עליהם.</span></p>
+<button class="ML" onclick="myFunc()" id="myBtn">עוד</button>
+</div><br/>
+
+</body>
+
+<script>
+  function myFunction(price, place) {
+    var checkBox1 = document.getElementById("Icons");
+    var checkBox2 = document.getElementById("HarryPotter");
+    var checkBox3 = document.getElementById("StarWars");
+    var checkBox4 = document.getElementById("Classic");
+    var checkBox5 = document.getElementById("flowersPlants");
+    var checkBox6 = document.getElementById("Cars");
+    var checkBox7 = document.getElementById("MoviesSeries");
+    var checkBox8 = document.getElementById("ART");
+    var checkBox9 = document.getElementById("+1.5");
+    var checkBox10 = document.getElementById("+4");
+    var checkBox11 = document.getElementById("+13");
+    var checkBox12 = document.getElementById("+18");
+
+    if (checkBox1.checked == true || checkBox2.checked == true || checkBox3.checked == true|| checkBox4.checked == true|| checkBox5.checked == true|| checkBox6.checked == true || checkBox7.checked == true || checkBox8.checked == true|| checkBox9.checked == true|| checkBox10.checked == true|| checkBox11.checked == true|| checkBox12.checked == true){
+      place.style.display = "block";
+    } else {
+      place.style.display = "none";
+    }
+  }
+
+  function myFunc() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "עוד"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "פחות"; 
+    moreText.style.display = "inline";
+  }
+}
+  </script>
+</html>

@@ -1,0 +1,45 @@
+.button:link, .button:visited {
+  background-color: white;
+  color: black;
+  border: 2px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button1 {
+  background-color: white; 
+  color: black;
+  border: 2px solid rgb(16, 16, 16);
+  padding: 10px 20px;
+}
+  
+.button1:hover {
+  background-color: #dd1a22;
+  color: white;
+}
+  
+.button2:hover {
+  background-color: #f57d20;
+  color: white;
+}
+  
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f57d20;
+  padding: 10px 20px;
+}
+  
+.button3:hover {
+  background-color: #006cb7;
+  color: white;
+}
+  
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #006cb7;
+  padding: 10px 20px;
+}

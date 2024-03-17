@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../CSS Files/StyleNavBar.CSS" rel="stylesheet" type="text/CSS"/>
+<link href="../CSS Files/StylemyBtnCat.CSS" rel="Stylesheet" type="text/CSS"/>
+<link href="../CSS Files/StyleGallery.CSS" rel="Stylesheet" type="text/CSS"/>
+<title>LazyHOMEp</title>
+<style>
+html {
+box-sizing: border-box;
+}
+    
+*, *:before, *:after {
+box-sizing: inherit;
+}
+    
+.column1 {
+float: left;
+width: 33.3%;
+margin-bottom: 16px;
+padding: 0 8px;
+height: 25%;
+}
+    
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+border: 1px solid #eee;
+margin: auto;
+padding: 20px;
+height: 650px;
+-webkit-transition: 0.3s;
+transition: 0.3s;
+max-width: 300px;
+}
+    
+.card img{
+width: 100%;
+height: auto;
+}
+
+.responsive{
+/*object-fit: cover;*/
+width: 100%;
+max-width: 300px;
+height: 100%;
+display: block;
+margin: auto;
+margin-top: 10px;
+z-index: -1;
+}
+    
+.container1 {
+padding: 0 16px;
+text-align: center;
+}
+    
+.container1::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+    
+.button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+    
+.button:hover {
+background-color: #555;
+}
+
+.Us{
+direction:rtl;
+box-sizing: border-box;
+text-align: center;
+margin: 0;
+padding: 10px 10px;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+<img src="../Image/lazy logo0.1.jpg" width="768" height="368">
+</div>
+
+<div class="topnav">
+<a href="LazyHOMEp.html">בית</a>
+<a href="LazyCategories.html">קטגוריות</a>
+<a href="LazyContact.html">יצירת קשר</a>
+</div>
+
+<div class="Us">
+<h2 name="aboutUs" style="text-align:center">קצת עלינו</h2>
+<p>במהלך השנתיים האחרונות, הלגו התגלה לי מחדש ככלי אהוב ומרגש. הפעם, בהתרסה החוזרת לעולם הבנייה והיצירה שלו, החלטתי להקדיש את עצמי למתן שירות ייחודי ואיכותי של הרכבת ובניית לגו. כבר מילדותי אהבתי את הקסם שקיים בלגו וידעתי שאני רוצה להעביר את הקסם הזה לאחרים ולאפשר להם לחוות את האהבה הזו גם בביתם.</p>
+<p>בעזרת ידע בתחום העיצוב וכישורי בנייה, אני מביאה לחיים של אנשים את הקסם שבלגו, תוך יצירת חוויות ייחודיות ואישיות. החנות שלנו היא מקום שמשלב את העבר לכאן ועכשיו לאהבה הישנה והמרגשת והיא משמשת כמקום פגישה מיוחד וייחודי של זמנים שונים. האהבה העזה שלי ללגו הובילה למציאת הדרך לשלב בין שני הדברים שאני אוהבת - עיצוב ולגו. בזכות זו, הקמתי את החנות הזו כדי לתת מקום להביא את הקסם של Lazy LEGO לחיים ביתך.</p>
+<p>אני מאמינה בהשפעה החיובית של עיצוב ויצירה לבית וכמקום של שקט הנפשי של האדם. 
+אני כאן כדי לעזור לך לעצב את הבית שלך מעבר למה שחלמת עליו.</p><br>
+</div>
+
+<div class="row">
+  <div class="column1">
+  <div class="card">
+  <img src="../Image/disney-castle.jpg" alt="Disney-Castle" class="responsive" width="600" height="400">
+  <div class="container1">
+  <h2>לפי גיל</h2>
+  <p>אנו מביאים דגמי לגו מוכנים שיהיו מתאמים עבור כל קהל יעד בגילאים שונים. ניתן להתאים דגמים שמתאימים לחדרי ילדים, נוער, או גם לחללי בילוי או משרדים ביתיים.
+  הילדים יכולים ליהנות מדגמים ייחודיים ויצירתיים שיביאו אל החלל אווירה חיובית וצבעונית, והמבוגרים יכולים ליהנות מדגם שיהיה במשרד או בבית שמשלב את הסטייל בעיצוב החלל עם דגם הלגו האהוב מהילדות לבגרות.</p>
+  <p><button class="button1" style="border-style: solid;border-color: #dd1a22;" onclick="window.location.href='LazyCategories.html'">עוד</button></p>
+  </div>
+  </div>
+</div>
+  
+<div class="column1">
+  <div class="card">
+  <img src="../Image/the-globe.jpg" alt="The-Globe" class="responsive" width="600" height="400">
+  <div class="container1">
+  <h2>תחומי עניין</h2>
+  <p>אנו מתמקדים בתחומי עניין מסוימים שמצוינים בצורה ייחודית בעזרת דגמי לגו מוכנים. זה יכול לכלול פריטים כמו מודלים של מסעדה כשירות קפה, מסעדת בר, או כל תחום עניין אחר שקרוב לליבכם. העיצוב כאן מיועד להשפיע על תחושה חמימה והאווירה של המקום.</p>
+  <p><button class="button2" a href="ContactPage.html" style="border-style: solid;border-color: #f57d20" onclick="window.location.href='LazyCategories.html'">עוד</button></p>
+  </div>
+  </div>
+</div>
+    
+<div class="column1">
+  <div class="card">
+  <img src="../Image/Chevrolet Camaro.jpeg" alt="Chevrolet-Camaro" class="responsive" width="600" height="400">
+  <div class="container1">
+  <h2>נושאים</h2>
+  <p>אנו מביאים לך את החוויה המקסימלית בעיצוב פנים דרך דגמי לגו מוכנים. הנושאים כאן עשויים לכלול את כל הסגנונות והנוגעים לעיצוב הפנים. זה יכול לכלול דגמים של תחומים כמו אומנות, אדריכלות, או אפילו סצנות אייקונית מסרט או סידרה אהובה, שיכולות לשדרג את הבית בצורה מיוחדת.</p>
+  <p><button class="button3" style="border-style: solid;border-color:#006cb7" onclick="window.location='LazyCategories.html'">עוד</button></p>
+  </div>
+  </div>
+  </div>
+</div><br/>
+
+<h2 style="text-align:center">מוצרים מומלצים</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 8</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 8</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 8</div>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 8</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 8</div>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 8</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 8</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 8</div>
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+  <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="../Image/batman2.jpg" style="width:100%" onclick="currentSlide(1)" alt="Batman">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Image/Typewriter2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Typewriter">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Image/Winnie the Pooh.jpeg" style="width:100%" onclick="currentSlide(3)" alt="WinnieThePooh">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Image/Vespa2.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Vespa">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Image/The Mighty Bowser.jpg" style="width:100%" onclick="currentSlide(5)" alt="The Mighty Bowser">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="../Image/Groot2.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Groot">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Image/Villain icons2.jpg" style="width:100%" onclick="currentSlide(7)" alt="Villain Icons">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../Image/wild flowers2.jpg" style="width:100%" onclick="currentSlide(8)" alt="Wild Flowers">
+    </div>
+  </div>
+</div>
+
+</body>
+
+<script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+  
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+  
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+  
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</html>
+
+  
+</body>
+</html>
